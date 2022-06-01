@@ -7,7 +7,7 @@ while true
 do
 	i=$((i+1))
 
-	if [ $i -gt 6000 ]
+	if [ $i -gt 600 ]
 		then
 			git push origin
 			i=0
